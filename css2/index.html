@@ -1,28 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
- <title>Combinators</title>
+ <title>Attribute Selectors</title>
  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
- <div class="container">
- <h2 style="color:darkred;">Section Title</h2>
- <p>This is the first paragraph.</p>
- <p>This is the second paragraph.</p>
- <span>Span inside container</span>
- <div class="inner">
- <p>Paragraph inside inner div.</p>
- </div>
- </div>
- <h2 style="color:darkred;">Another Section Title</h2>
- <p>This paragraph is outside the container.</p>
+ <a href="https://example.com" target="_blank">Example Link</a>
+ <br>
+ <a href="https://example.com" title="Example">Example with Title</a>
+ <br>
+ <input type="text" placeholder="Enter your name">
+ <br>
+ <input type="email" placeholder="Enter your email">
 </body>
 </html>
 
 <!--
-CSS Requirements:Set the font weight of the <p> elements that are direct children of the element with class "container" to bold.
-Change the color of the <span> that is inside the element with class "container" to orange.
-Set the font-size of the <p> elements that are descendants of the element with class "inner" to lightblue.
-Change the text color of the <h2> elements that are immediately followed by a <p> element to darkred.
---> 
+CSS Requirements:Set the text color of all links (<a>) that open in a new tab 
+    (i.e., have target="_blank") to green.Change the background color of links that have a title attribute to lightgray
+    .Make the text color of text input fields (<input type="text">) blue. --> 
+

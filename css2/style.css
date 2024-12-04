@@ -1,15 +1,5 @@
-div.container p
-{
-  font-weight:bold;
-}
+a[target="_blank"]{color:green;}
 
-div.container span
-{
-    color:orange;
-}
+[title]{color:lightgray;}
 
-div.inner 
-{
-    font-size:22 px;
-    color:lightblue;
-}
+input[type="text"]{color:blue;}
