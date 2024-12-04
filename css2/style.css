@@ -1,0 +1,15 @@
+div.container p
+{
+  font-weight:bold;
+}
+
+div.container span
+{
+    color:orange;
+}
+
+div.inner 
+{
+    font-size:22 px;
+    color:lightblue;
+}
